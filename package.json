@@ -1,10 +1,10 @@
 {
   "name": "@mainamiru/prisma-types-generator",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "npx rimraf dist && npx tsc"
+    "build": "npx rimraf tsconfig.tsbuildinfo dist  && npx tsc"
   },
   "keywords": [
     "Maina Miru",
@@ -21,16 +21,11 @@
     "./tsconfig.json"
   ],
   "devDependencies": {
-    "@prisma/generator-helper": "^5.18.0",
-    "@types/node": "^22.4.0",
-    "typescript": "^5.5.4"
+    "@prisma/generator-helper": "^6.5.0",
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
   },
   "author": "LUCKY BABU",
-  "contributors": [
-    {
-      "name": "Jiban Murmu"
-    }
-  ],
   "private": false,
   "description": "Prisma Types Generator. Prisma Interface Generator"
 }

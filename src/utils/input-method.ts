@@ -30,7 +30,8 @@ export const generateCreateAndUpdateInput = (name: string, fields: Fields) => {
         isReadOnly ||
         field.isUpdatedAt ||
         !field.isRequired ||
-        field.hasDefaultValue
+        field.hasDefaultValue ||
+        field.isReadOnly
       ) {
         data.push(`${key}?: ${objectModel[key]};`);
       } else {
