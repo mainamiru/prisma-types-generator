@@ -78,6 +78,9 @@ export type ${enum_name} = keyof typeof ${enum_name};
       const fileName = toKebabCase(model.name);
       return `export * from "./${fileName}";`;
     });
+    if (enums.length) {
+      indexImports.push(`export * from "./enums";`);
+    }
     fs.writeFileSync(indexFile, indexImports.join("\n").trim());
   },
   onManifest: () => {
