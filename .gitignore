@@ -1,4 +1,7 @@
 node_modules/
 dist/
+types/
 tsconfig.tsbuildinfo
 yarn.lock
+bun.lock
+bun.lockb

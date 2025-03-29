@@ -7,10 +7,11 @@
     "sourceMap": true,
     "rootDir": "./src",
     "outDir": "./dist",
+    "declarationDir": "types",
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
     "noImplicitAny": false
   },
-  "exclude": ["./node_modules", "./dist"]
+  "exclude": ["./node_modules", "./dist", "./types"]
 }
