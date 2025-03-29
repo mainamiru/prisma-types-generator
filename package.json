@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "build": "npx rimraf tsconfig.tsbuildinfo dist  && npx tsc"
   },
@@ -28,7 +29,16 @@
     "@types/node": "^22.13.10",
     "typescript": "^5.8.2"
   },
-  "author": "LUCKY BABU",
-  "private": false,
+  "author": {
+    "name": "LUCKY BABU",
+    "email": "dev.luckybabu@gmail.com",
+    "url": "https://github.com/devluckybabu"
+  },
+  "homepage": "https://github.com/mainamiru/prisma-types-generator.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mainamiru/prisma-types-generator.git",
+    "directory": "packages/@mainamiru/prisma-types-generator"
+  },
   "description": "Prisma Types Generator. Prisma Interface Generator"
 }

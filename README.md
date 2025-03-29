@@ -132,10 +132,7 @@ The Prisma JS Client returns objects that does not contain the model's relationa
      password: string;
      created_at?: Date;
      updated_at?: Date;
-   }
-
-   export interface UserCreateCompleteInput extends UserCreateInput {
-     posts?: PostCreateInput | PostCreateInput[];
+     posts?: PostCreateInput[];
    }
 
    export type UserUpdateInput = Partial<UserCreateInput>;
@@ -166,9 +163,6 @@ The Prisma JS Client returns objects that does not contain the model's relationa
      authorId: string;
      created_at?: Date;
      updated_at?: Date;
-   }
-
-   export interface PostCreateCompleteInput extends PostCreateInput {
      author?: UserCreateInput;
    }
 
