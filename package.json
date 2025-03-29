@@ -20,8 +20,10 @@
     "./package.json",
     "./tsconfig.json"
   ],
+  "dependencies": {
+    "@prisma/generator-helper": "^6.5.0"
+  },
   "devDependencies": {
-    "@prisma/generator-helper": "^6.5.0",
     "@types/node": "^22.13.10",
     "typescript": "^5.8.2"
   },
