@@ -45,11 +45,11 @@ The Prisma JS Client returns objects that does not contain the model's relationa
 
 ## Options
 
-| **Option**  | **Type**  |  **Default**  | **Description**                                                                                              |
-| ----------- | :-------: | :-----------: | ------------------------------------------------------------------------------------------------------------ | --- |
-| output      | `string`  | `"generated"` | The output location for the generated Typescript                                                             |
-| modelSuffix | `string`  |   `"Model"`   | Suffix to add to model types.                                                                                |     |
-| prettier    | `boolean` |    `false`    | Formats the output using Prettier. Setting this to `true` requires that the `prettier` package is available. |
+| **Option**  | **Type**  | **Default**   | **Description**                                                                                              |
+| ----------- | --------- | ------------- | ------------------------------------------------------------------------------------------------------------ |
+| output      | `string`  | `"generated"` | The output location for the generated TypeScript.                                                            |
+| modelSuffix | `string`  | `"Model"`     | Suffix to add to model types.                                                                                |
+| prettier    | `boolean` | `false`       | Formats the output using Prettier. Setting this to `true` requires that the `prettier` package is available. |
 
 3. **😎 done! Let's check out generated files.**
 
